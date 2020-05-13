@@ -1,0 +1,93 @@
+
+*{
+    list-style-type: none;
+}
+.footer {
+    text-align: center;
+    height: 30em;
+    max-width: 93%;
+    margin: 0 auto;
+    &__img {
+        margin-left: -5em;
+        margin-top: 2em;
+    }
+    &__contain {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2em;
+        &--middle {
+            h2 {
+                color: #1078AD;
+                font-weight: bolder;
+                font-size: 24px;
+            }
+            h4 {
+                color: #369D53;
+                font-size: 16px;
+                font-weight: bolder;
+            }
+            p {
+                font-size: 15px;
+                color: black;
+                font-weight: bolder;
+            }
+            li {
+                margin-bottom: 1.3em;
+            }
+        }
+        &--text {
+            width: 43vw;
+            color: #7F7F7F;
+            font-size: 15px;
+            text-align: left;
+            margin-top: 3em;
+        }
+        .footer__col1 {
+            text-align: center;
+            li {
+                color: black;
+                list-style-type: none;
+                margin-bottom: 2em;
+            }
+            .footer__col2 {
+                padding: 5px 10px;
+                font-size: 16px;
+                border: 1px solid #1078AD;
+                border-radius: 10px;
+                font-weight: 600;
+                .fas {
+                    color: #F4CF1B;
+                    &:hover {
+                        background-color: gold;
+                        color: white;
+                    }
+                }
+            }
+            .footer__col3{
+                font-size: 20px;
+                color: #1078AD;
+                font-weight: bolder;
+            }
+            .footer__col4 {
+                font-weight: bold;
+                font-size: 16px;
+                font-size: 20px;
+            }
+           // .footer33 {text-align: left; }
+            .bottom {
+                height: 50px;
+                width: 100%;
+                background-color: #1078AD;
+                border-radius: 5px 5px 0 0;
+            }
+        }
+    }
+    
+   
+}
+.bar{
+    background-color:  $color1;
+     width: 100%;
+     height: 10%;
+     margin-top: 37px;
+ }

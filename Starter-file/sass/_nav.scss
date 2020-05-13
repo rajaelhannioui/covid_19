@@ -1,0 +1,62 @@
+@import 'var.scss';
+
+* {
+    list-style-type: none;
+}
+
+.header {
+    &__nav {
+        width: 100%;
+        
+        padding: 0 2em;
+        background: url("../../../Design/Assets/png/Merged bar-1.png");
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__menu {
+        a {
+            margin-right: 3rem;
+            color: #1078AD;
+            font-weight: bolder;
+            font-weight: 1.5rem;
+
+            &:nth-child(3) {
+                border: 1.5px solid black;
+                padding: 0.5em 1em;
+                border-radius: 10px;
+
+                &:hover {
+                    background-color: gold;
+                    color: white;
+                }
+            }
+        }
+
+        .fas {
+            color: black;
+        }
+    }
+
+    &__text {
+        background: url("../../../Design/Assets/png/En\ chiffres-24.png");
+        text-align: center;
+        line-height: 2.5;
+    }
+
+    &__title {
+        font-weight: bolder;
+        font-size: 1.5em;
+
+    }
+
+    &__parag {
+        width: 50%;
+        font-weight: bold;
+        font-size: 0.9em;
+        margin: 0 auto;
+        color: $btn_color;
+
+    }
+}

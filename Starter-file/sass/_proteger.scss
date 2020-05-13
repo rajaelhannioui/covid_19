@@ -1,0 +1,74 @@
+.protége {
+
+
+    &__title {
+        padding-top: 50px;
+        text-align: center;
+        margin: 0 auto;
+        color: rgb(15, 104, 148);
+        font-size: 26px;
+        max-width: 40%;
+
+        @media only screen and (max-width: 600px) {
+            font-size: 15px;
+
+        }
+    }
+
+    &__contenu {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 80%;
+        flex-wrap: wrap;
+        margin: 50px auto;
+
+        @media only screen and (max-width: 600px) {
+            flex-direction: column;
+
+
+        }
+
+        &__items {
+            width: 26%;
+            margin: 20px;
+            padding: 10px;
+            text-align: center;
+            color: rgb(15, 104, 148);
+
+            @media only screen and (max-width: 600px) {
+
+                width: 40%;
+
+
+            }
+
+            P {
+                font-size: large;
+                font-weight: 700;
+            }
+
+        }
+
+    }
+
+
+    &__last {
+        width: 35%;
+        margin: 0px auto;
+        text-align: center;
+        color: rgb(15, 104, 148);
+
+        @media only screen and (max-width: 600px) {
+
+            width: 70%;
+
+        }
+
+        p {
+            font-size: large;
+            font-weight: 700;
+
+        }
+    }
+}

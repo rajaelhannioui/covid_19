@@ -1,0 +1,73 @@
+.navcontainer {
+  width: 100%;
+  background: url("../../../Design/Assets/png/Merged_bar-3@2x.png");
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navcontainer nav {
+  background: #D0E5F0;
+  padding: 0 2em;
+}
+
+.navcontainer nav .logo {
+  padding: 0%;
+  position: relative;
+  padding-right: 30%;
+}
+
+@media (max-width: 700px) {
+  .navcontainer {
+    padding: 0;
+  }
+}
+
+.navcontainer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.navcontainer ul li {
+  padding-left: 10%;
+  padding-top: 3%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 100%;
+          flex: 1 100%;
+  list-style: none;
+}
+
+.navcontainer ul li a {
+  text-decoration: none;
+  color: #707070;
+}
+
+.navcontainer ul li a .nav__menu a:nth-child(3):hover {
+  background-color: gold;
+  color: white;
+}
+
+@media (max-width: 700px) {
+  .navcontainer ul {
+    display: block;
+  }
+}
+
+.navcontainer .info {
+  padding: 0;
+  width: 100%;
+  background-color: #F4CF1B;
+  text-align: center;
+}
+
+.navcontainer .info .title {
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
+  color: #1078AD;
+}
+/*# sourceMappingURL=style.css.map */
